@@ -7,10 +7,11 @@ rule ok3_rule1 {
 
 rule ok3_rule2 {
   strings:
-    $test_string= "smoke testxyz"
+    $test_string= "smoke testxyza"
   condition:
     $test_string
 }
+
 
 
 
