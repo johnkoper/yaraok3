@@ -1,6 +1,6 @@
 rule ok3_rule1 {
   strings:
-    $test_string= "smoke testx"
+    $test_string= "smoke testxy"
   condition:
     $test_string
 }
@@ -13,4 +13,5 @@ rule ok3_rule2 {
     $test_string
 }
 */
+
 
